@@ -1,0 +1,112 @@
+
+/* INDEX MOBILE FIRST */
+
+.section-medio{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/img/fondo\ landing\ page\ mobile.jpg);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.texto-index{
+    font-size: 35px;
+    color: #3d3d3d;
+    margin-bottom: 20px;
+    background-color: #FFFFFF80;
+}
+
+.boton-registrarse{
+    font-family: "futura-bold" !important;
+    width: 300px !important;
+    font-size: 30px !important;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+
+    .section-medio{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/img/fondo\ landing\ page\ tablet.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .texto-index{
+        font-size: 50px;
+        color: #3f3f3f;
+        margin-bottom: 40px;
+        background-color: #FFFFFF80;
+    }
+    
+    .boton-registrarse{
+        font-family: "futura-bold" !important;
+        width: 400px !important;
+        font-size: 50px !important;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 960px) {
+ 
+    .section-medio{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/img/fondo\ landing\ page\ mobile.jpg);
+        height: 1200px;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .texto-index{
+        font-size: 65px;
+        color: #3d3d3d;
+        background-color: #FFFFFF80;
+        display: block;
+    }
+    
+    .boton-registrarse{
+        font-family: "futura-bold" !important;
+        width: 400px !important;
+        font-size: 50px !important;
+        
+    }
+}
+
+@media (min-width: 960px) {
+ 
+    .section-medio{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/img/fondo\ landing\ page.jpg);
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .texto-index{
+        margin-left: 50px;
+        font-size: 70px;
+        color: #3d3d3d;
+        margin-top: 40px;
+    }
+    
+    .boton-registrarse{
+        margin-left: 50px;
+        font-family: "futura-bold" !important;
+        width: 400px !important;
+        font-size: 50px !important;
+        display: flex;
+        margin-bottom: 40px;
+    }
+}

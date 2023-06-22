@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- USO DE FAVICON -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+    <title>Arbit.com.ar</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar col-12 navbar navbar-expand-lg navbar-dark futura-medium">
+            <div class="container-fluid">
+              <!-- LOGO -->
+                <img class="logo" src="../../assets/img/LOGO ARBIT.png">
+              <!-- BOTON HAMBURGUESA -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <!-- CONTENEDOR LINKS -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- LISTA UL LINKS -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">INGRESO</a>
+                  </li>
+                    <a class="nav-link" href="#">COTIZACIONES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">ARBITRAJES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="arbitips.html">ARBITIPS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div class="boton-volver">
+        <h1 class="texto-volver"><a href="../../index.html">< Volver al inicio</a></h1>
+      </div>    
+      <div class= "section-medio-registro container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class="texto-registro futura-bold">Formulario de registro</h1>
+            <!-- FORMULARIO -->
+        <form class="form-registro futura-medium">
+            <div class="mb-3">
+                <label for="nombre-apelldio" class="form-label">Nombre y apellido</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="button" class="boton-registrarse-registro btn btn-danger futura-medium">REGISTRARSE</button>
+          </form>
+          <!-- FIN FORMULARIO -->
+          </div>
+        </div>
+      </div>
+    </main>
+      <footer class="container-fluid">
+      <p class="texto-footer">© 2023 Arbit, todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

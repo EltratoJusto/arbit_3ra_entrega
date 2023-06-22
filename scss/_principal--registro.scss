@@ -1,0 +1,129 @@
+/* INDEX MOBILE FIRST */
+
+.texto-volver{
+    font-size: 20px;
+}
+
+.boton-volver{
+    font-family: "futura-medium";
+    font-size: 15px;
+    height: 40px;
+    padding-left: 40px;
+    background-color: rgb(94, 13, 63);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-medio-registro{
+    background-color: rgb(24, 133, 133);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.texto-registro{  
+    font-family: "futura-medium";
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-registro{
+    margin-top: 50px;  
+}
+
+.boton-registrarse-registro{
+    font-family: "futura-bold" !important;
+    width: 300px !important;
+    font-size: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+ 
+    .logo{
+        display: flex;
+        width: 100px;
+        margin-left: 70px;
+        margin-right: 40px;
+    }
+    .section-medio-registro{
+        background-color: rgb(24, 133, 133);
+        height: 900px;
+        align-items: start;
+        justify-content: center;
+    }
+    
+    .boton-registrarse-registro{
+        font-family: "futura-bold" !important;
+        width: 300px !important;
+        font-size: 30px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto-registro{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 960px) {
+ 
+    .section-medio-registro{
+        background-color: rgb(24, 133, 133);
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton-registrarse-registro{
+        font-family: "futura-bold" !important;
+        width: 200px !important;
+        font-size: 20px !important;
+        display: flex;
+    }
+
+    .texto-registro{
+        margin-top: 50px;
+        font-size: 55px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .form-registro{
+        margin-top: 50px;  
+    }
+}
+
+@media (min-width: 960px) {
+    
+    .section-medio-registro{
+        background-color: rgb(24, 133, 133);
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .boton-registrarse-registro{
+        font-family: "futura-bold" !important;
+        width: 200px !important;
+        font-size: 20px !important;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
+    .form-registro{
+        margin-top: 30px;  
+    }
+}

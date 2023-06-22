@@ -1,0 +1,40 @@
+@font-face { 
+    font-family: "futura-bold"; 
+    src: url("../assets/fonts/Futura\ Md\ BT\ Bold.ttf")
+}
+
+@font-face { 
+    font-family: "futura-medium"; 
+    src: url("../assets/fonts/Futura\ Md\ BT\ Medium.ttf")
+}
+
+@font-face { 
+    font-family: "futura-book"; 
+    src: url("../assets/fonts/Futura\ Bk\ BT\ Book.ttf")
+}
+
+@font-face { 
+    font-family: "futura-medium-italic"; 
+    src: url("../assets/fonts/Futura\ Md\ BT\ Medium\ Italic.ttf")
+}
+
+.futura-bold{
+    font-family: "futura-bold";
+}
+
+.futura-medium{
+    font-family: "futura-medium";
+}
+
+.futura-book{
+    font-family: "futura-book";
+}
+
+.futura-medium-italic{
+    font-family: "futura-medium-italic";
+}
+
+.futura-medium__menu{
+    font-family: "futura-medium";
+    color:#ffffff;
+}

@@ -1,0 +1,71 @@
+/* INDEX MOBILE FIRST */
+
+.textos-arbitips{
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.imagen-tip{
+    height: 250px;
+}
+
+.contenedor-texto-h1{
+    font-size: 25px;
+    height: auto;
+    padding: 20px;
+}
+.contenedor-texto{
+    font-size: 20px;
+    height: 150px;
+    padding: 20px;
+}
+
+.section-medio-arbitips{
+    height: auto;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-volver-arbitips{
+    margin-left: 50px;
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+
+    .contenedor-texto{
+        font-size: 22px;
+        height: 150px;
+        padding: 20px;
+    
+    }
+
+    .section-medio-arbitips{
+        height: auto;
+        background-color: #1d1d1d;
+        display: flex;
+        justify-content: center;
+    
+    }
+}
+
+@media (min-width: 720px) and (max-width: 960px) {
+
+    .contenedor-texto{
+        font-size: 22px;
+        height: 150px;
+        padding: 20px;
+    
+    }
+}
+
+@media (min-width: 960px) {
+
+    .contenedor-texto{
+        font-size: 20px;
+        height: 150px;
+        padding: 20px;
+    
+    }
+}
