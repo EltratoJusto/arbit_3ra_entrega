@@ -15,18 +15,86 @@
     align-items: center;
 }
 
-.section-medio-registro{
-    background-color: rgb(26, 26, 26);
-    height: 750px;
+.precio-btc{
     display: flex;
-    justify-content: center;
-    align-items: start;
+    flex-direction: column;
 }
 
-.texto-registro{  
-    font-family: "futura-medium";
-    margin-top: 50px;
+.contenedor-titulo-cripto{
     display: flex;
     justify-content: center;
+    height: 45px;
+    background-color: rgb(150, 12, 108);
+}
+
+.section-medio-cotizaciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1d1d1d;
+    height: 550px;
+}
+
+.contenedor-cotizacion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-btc{
+    font-family: "futura-book";
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    height: 500px;
+    width: 550px;
+}
+
+.exchange-btc{
+    font-family: "futura-medium";
+    padding-left: 20px;
+    height: 420px;
+    width: 150px;
+    background-color: #292929;
+}
+
+.precio-compra-btc{
+    text-align: center;
+    height: 420px;
+    width: 120px;
+    background-color: #165542;
+}
+
+.precio-venta-btc{
+    text-align: center;
+    height: 420px;
+    width: 120px;
+    background-color: #b91b1b;
+}
+
+h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-eth{
+    height: 500px;
+    width: 550px;
+    background-color: rgb(56, 106, 172);
+}
+
+.section-usdt{
+    height: 500px;
+    width: 550px;
+    background-color: rgb(189, 18, 75);
+}
+
+.texto-cotizaciones{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-family: "futura-medium";
+    color: rgb(255, 255, 255);
+    background-color: #1d1d1d;
 }
 

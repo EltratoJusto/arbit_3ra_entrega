@@ -251,7 +251,7 @@ footer {
     margin-right: 30px;
   }
 }
-/* INDEX MOBILE FIRST */
+/* MOBILE FIRST */
 .texto-volver {
   font-size: 20px;
 }
@@ -365,7 +365,7 @@ footer {
     margin-top: 30px;
   }
 }
-/* INDEX MOBILE FIRST */
+/* MOBILE FIRST */
 .textos-arbitips {
   color: #ffffff;
   display: flex;
@@ -426,6 +426,104 @@ footer {
     height: 150px;
     padding: 20px;
   }
+}
+/* MOBILE FIRST */
+.texto-volver {
+  font-size: 20px;
+}
+
+.boton-volver {
+  font-family: "futura-medium";
+  font-size: 15px;
+  height: 40px;
+  padding-left: 40px;
+  background-color: rgb(94, 13, 63);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.precio-btc {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-titulo-cripto {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  background-color: rgb(150, 12, 108);
+}
+
+.section-medio-cotizaciones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1d1d1d;
+  height: 550px;
+}
+
+.contenedor-cotizacion {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-btc {
+  font-family: "futura-book";
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  height: 500px;
+  width: 550px;
+}
+
+.exchange-btc {
+  font-family: "futura-medium";
+  padding-left: 20px;
+  height: 420px;
+  width: 150px;
+  background-color: #292929;
+}
+
+.precio-compra-btc {
+  text-align: center;
+  height: 420px;
+  width: 120px;
+  background-color: #165542;
+}
+
+.precio-venta-btc {
+  text-align: center;
+  height: 420px;
+  width: 120px;
+  background-color: #b91b1b;
+}
+
+h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-eth {
+  height: 500px;
+  width: 550px;
+  background-color: rgb(56, 106, 172);
+}
+
+.section-usdt {
+  height: 500px;
+  width: 550px;
+  background-color: rgb(189, 18, 75);
+}
+
+.texto-cotizaciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-family: "futura-medium";
+  color: rgb(255, 255, 255);
+  background-color: #1d1d1d;
 }
 
 /*# sourceMappingURL=main.css.map */
