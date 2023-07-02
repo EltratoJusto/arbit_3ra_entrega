@@ -50,28 +50,32 @@
       </div>    
     </div>
     <div class="titulo-pagina futura-bold">
-      <h1>Registro</h1>
+      <h1>Contacto</h1>
     </div>
 
       <div class= "section-medio-registro container-fluid">
         <div class="row">
           <div class="col">
-            <h1 class="texto-registro futura-bold">Ingresa tus datos</h1>
+            <h1 class="texto-registro futura-bold">Ingresa tu consulta</h1>
             <!-- FORMULARIO -->
         <form class="form-registro futura-medium">
             <div class="mb-3">
-                <label for="nombre-apelldio" class="form-label">Nombre y apellido</label>
+                <label for="nombre-apelldio" class="form-label">Nombre</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <button type="button" class="boton-registrarse-registro btn btn-danger futura-medium">REGISTRARSE</button>
+              <label for="nombre-apelldio" class="form-label">Consulta</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Motivo de consulta</option>
+                <option value="1">Registro</option>
+                <option value="2">Ingreso</option>
+                <option value="3">Problemas en la plataforma</option>
+              </select>
+              <label for="nombre-apelldio" class="form-label"> </label>
+            <div class="input-group">
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <label for="nombre-apelldio" class="form-label"> </label>
+            <button type="button" class="boton-registrarse-registro btn btn-danger futura-medium">ENVIAR</button>
           </form>
           <!-- FIN FORMULARIO -->
           </div>
