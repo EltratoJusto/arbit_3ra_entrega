@@ -53,7 +53,7 @@ h5{
 
 /* PRUEBA FOR*/
 
-@for $i from 1 through 4{
+@for $i from 1 through 8{
     .contenedor-cotizaciones-#{$i}{
         font-family: "futura-book";
         display: flex;
