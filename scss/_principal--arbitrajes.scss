@@ -124,3 +124,64 @@ h5{
     }    
 }
 
+@media (max-width: 460px) {    
+        .precio-cripto{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .contenedor-titulo-cripto{
+            display: flex;
+            justify-content: center;
+            height: 45px;
+            background-color: rgb(17, 145, 150);
+        }
+    
+        .contenedor-cotizacion{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        .section-cripto{
+            font-family: "futura-book";
+            display: flex;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            height: 500px;
+            width: 550px;
+        }
+        
+        .exchange-cripto-arbitraje{
+            font-size: 22px;
+            font-family: "futura-medium";
+            padding-left: 10px;
+            height: 420px;
+            width: 105px;
+            background-color: #292929;
+        }
+        
+        .precio-compra-arbitraje{
+            font-size: 12px;
+            text-align: center;
+            height: 420px;
+            width: 100px;
+            background-color: #165542;
+        }
+        
+        .precio-venta-arbitraje{
+            font-size: 12px;
+            text-align: center;
+            height: 420px;
+            width: 100px;
+            background-color: #b91b1b;
+        }
+    
+        .section-cripto{
+        font-family: "futura-book";
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        height: 500px;
+        width: 550px;
+        }    
+}
