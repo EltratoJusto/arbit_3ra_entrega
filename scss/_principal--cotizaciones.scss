@@ -15,60 +15,25 @@
     align-items: center;
 }
 
-.precio-btc{
-    display: flex;
-    flex-direction: column;
-}
-
-.contenedor-titulo-cripto{
-    display: flex;
-    justify-content: center;
-    height: 45px;
-    background-color: rgb(150, 12, 108);
-}
-
 .section-medio-cotizaciones{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #1d1d1d;
-    height: 550px;
+    height: auto;
 }
 
-.contenedor-cotizacion{
-    display: flex;
-    justify-content: space-around;
+.titulo-cripto{
+    font-family: "futura-bold";
+    font-size: 20px;
 }
 
-.section-btc{
-    font-family: "futura-book";
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    height: 500px;
-    width: 550px;
-}
-
-.exchange-btc{
-    font-family: "futura-medium";
-    padding-left: 20px;
-    height: 420px;
-    width: 150px;
-    background-color: #292929;
-}
-
-.precio-compra-btc{
-    text-align: center;
-    height: 420px;
-    width: 120px;
-    background-color: #165542;
-}
-
-.precio-venta-btc{
-    text-align: center;
-    height: 420px;
-    width: 120px;
-    background-color: #b91b1b;
+.titulo-cotizaciones{
+    font-family: "futura-bold";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
 }
 
 h5{
@@ -76,25 +41,86 @@ h5{
     padding-bottom: 10px;
 }
 
-.section-eth{
-    height: 500px;
-    width: 550px;
-    background-color: rgb(56, 106, 172);
-}
-
-.section-usdt{
-    height: 500px;
-    width: 550px;
-    background-color: rgb(189, 18, 75);
-}
-
-.texto-cotizaciones{  
+.titulo-pagina{  
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 70px;
     font-family: "futura-medium";
     color: rgb(255, 255, 255);
-    background-color: #1d1d1d;
+    background-color: #292929;
+}
+
+/* PRUEBA FOR*/
+
+@for $i from 1 through 4{
+    .contenedor-cotizaciones-#{$i}{
+        font-family: "futura-book";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        height: 550px;
+    }
+
+    .precio-cripto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-titulo-cripto{
+        display: flex;
+        justify-content: center;
+        height: 45px;
+        background-color: rgb(150, 12, 108);
+    }
+
+    .contenedor-cotizacion{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section-cripto{
+        font-family: "futura-book";
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        height: 500px;
+        width: 550px;
+    }
+    
+    .exchange-cripto{
+        font-size: 15px;
+        font-family: "futura-medium";
+        padding-left: 10px;
+        height: 420px;
+        width: 110px;
+        background-color: #292929;
+    }
+    
+    .precio-compra{
+        font-size: 15px;
+        text-align: center;
+        height: 420px;
+        width: 100px;
+        background-color: #165542;
+    }
+    
+    .precio-venta{
+        font-size: 15px;
+        text-align: center;
+        height: 420px;
+        width: 100px;
+        background-color: #b91b1b;
+    }
+
+    .section-cripto{
+    font-family: "futura-book";
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    height: 500px;
+    width: 550px;
+    }    
 }
 
