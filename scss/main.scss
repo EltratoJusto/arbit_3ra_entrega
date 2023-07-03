@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import "./fonts";
-@import "./nav";
-@import "./principal";
-@import "./footer";
+@import "./_fonts";
+@import "./_nav";
+@import "./_principal";
+@import "./_footer";
 @import "./_principal--registro";
 @import "./_principal--arbitips";
 @import "./_principal--cotizaciones";

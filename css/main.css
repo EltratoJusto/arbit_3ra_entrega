@@ -1,9 +1,11 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* FONTS */
 @font-face {
   font-family: "futura-bold";
   src: url("../assets/fonts/Futura Md BT Bold.ttf");
@@ -41,6 +43,7 @@
   color: #ffffff;
 }
 
+/* NAV */
 /* INDEX MOBILE FIRST */
 nav {
   font-family: "futura-bold";
@@ -49,23 +52,27 @@ nav {
   background-color: rgb(150, 12, 108);
 }
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none !important;
+}
+
 a:link {
   -webkit-tap-highlight-color: transparent;
 }
 
 a:link {
-  text-decoration: none;
+  text-decoration: none !important;
   color: rgb(212, 45, 45);
 }
 
 a:hover {
   color: black;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:visited {
   color: rgb(255, 255, 255);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .logo {
@@ -100,7 +107,8 @@ a:visited {
     justify-content: start;
   }
 }
-/* INDEX MOBILE FIRST */
+/* PÁGINA INDEX */
+/* MOBILE FIRST */
 .section-medio {
   background-position: center center;
   background-repeat: no-repeat;
@@ -196,7 +204,16 @@ a:visited {
     display: flex;
     margin-bottom: 40px;
   }
+  .prueba-boton {
+    margin-left: 50px;
+    font-family: "futura-bold" !important;
+    width: 400px !important;
+    font-size: 50px !important;
+    display: flex;
+    margin-bottom: 40px;
+  }
 }
+/* FOOTER */
 /* INDEX MOBILE FIRST */
 footer {
   font-size: 17px;
@@ -251,7 +268,24 @@ footer {
     margin-right: 30px;
   }
 }
+/* PÁGINA REGISTRO */
 /* MOBILE FIRST */
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: black;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none !important;
+}
+
+/**/
 .texto-volver {
   font-size: 20px;
 }
@@ -365,6 +399,7 @@ footer {
     margin-top: 30px;
   }
 }
+/* PÁGINA ARBITIPS */
 /* MOBILE FIRST */
 .textos-arbitips {
   color: #ffffff;
@@ -427,6 +462,7 @@ footer {
     padding: 20px;
   }
 }
+/* PÁGINA COTIZACIONES */
 /* MOBILE FIRST */
 .texto-volver {
   font-size: 20px;
@@ -1032,6 +1068,7 @@ h5 {
   width: 550px;
 }
 
+/* PÁGINA ARBITRAJES */
 /* MOBILE FIRST */
 .texto-volver {
   font-size: 20px;
@@ -1497,6 +1534,61 @@ h5 {
   color: rgb(255, 255, 255);
   height: 500px;
   width: 550px;
+}
+
+@media (max-width: 460px) {
+  .precio-cripto {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-titulo-cripto {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    background-color: rgb(17, 145, 150);
+  }
+  .contenedor-cotizacion {
+    display: flex;
+    justify-content: space-around;
+  }
+  .section-cripto {
+    font-family: "futura-book";
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    height: 500px;
+    width: 550px;
+  }
+  .exchange-cripto-arbitraje {
+    font-size: 22px;
+    font-family: "futura-medium";
+    padding-left: 10px;
+    height: 420px;
+    width: 105px;
+    background-color: #292929;
+  }
+  .precio-compra-arbitraje {
+    font-size: 12px;
+    text-align: center;
+    height: 420px;
+    width: 100px;
+    background-color: #165542;
+  }
+  .precio-venta-arbitraje {
+    font-size: 12px;
+    text-align: center;
+    height: 420px;
+    width: 100px;
+    background-color: #b91b1b;
+  }
+  .section-cripto {
+    font-family: "futura-book";
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    height: 500px;
+    width: 550px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
