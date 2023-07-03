@@ -153,27 +153,27 @@ h5{
         }
         
         .exchange-cripto-arbitraje{
-            font-size: 22px;
+            font-size: 13px;
             font-family: "futura-medium";
             padding-left: 10px;
-            height: 420px;
-            width: 105px;
+            height: 380px;
+            width: 95px;
             background-color: #292929;
         }
         
         .precio-compra-arbitraje{
-            font-size: 12px;
+            font-size: 13px;
             text-align: center;
-            height: 420px;
-            width: 100px;
+            height: 380px;
+            width: 90px;
             background-color: #165542;
         }
         
         .precio-venta-arbitraje{
-            font-size: 12px;
+            font-size: 13px;
             text-align: center;
-            height: 420px;
-            width: 100px;
+            height: 380px;
+            width: 90px;
             background-color: #b91b1b;
         }
     
@@ -185,4 +185,12 @@ h5{
         height: 500px;
         width: 550px;
         }    
+
+        .titulo-cotizaciones{
+            font-family: "futura-bold";
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 13px;
+        }
+        
 }
